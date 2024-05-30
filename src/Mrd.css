@@ -1,0 +1,102 @@
+.mrdbody {
+    font-family: "Lato", sans-serif;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    color: #e5d6d6;
+}
+
+.mrdh4 {
+    font-size: 58px;
+    font-family: Georgia, sans serif;
+    text-align: center;
+    color: #dac6c6;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.containermrd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sidenav {
+    width: 250px;
+    background: #050505;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-radius: 10px;
+    box-shadow: #cabfbf;
+}
+
+.sidenav a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #cabfbf;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #776868;
+}
+
+.mainmrd {
+    flex: 1;
+    padding: 20px;
+}
+
+.gallerymrd {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(176, 164, 164, 0.912);
+    transition: transform 0.3s;
+}
+
+.gallerymrd:hover {
+    transform: scale(1.02);
+}
+
+.gallerymrd img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+}
+
+.descmrd {
+    padding: 15px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.pmrd {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #020202;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
+
+    .sidenav {
+        width: 100%;
+    }
+}
